@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: "LarsseitMedium";
 }
 ol, ul {
 	list-style: none;
@@ -82,8 +83,162 @@ table {
 
 /* fonts end*/
 
+/* header start */
 
-.checking_the_font {
-    font-family: "LarsseitMedium";
-    font-size: 100px;;
+.header {
+    display: flex;
+    justify-content: space-between;
 }
+
+.header__background-left {
+    width: 77.5%;
+    flex-shrink: 0;
+    background-color: #F4F9E2;
+    height: 840px;
+    /* z-index: -4; */
+}
+
+.header__background-left a {
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    padding-top: 38px;
+    z-index: 10;
+}
+
+.menu a {
+    color: #22356F;
+    padding-right: 30px;
+}
+
+.menu__items a {
+    transition: 1s;
+}
+
+.menu :hover {
+    color: #dd5a2bd3;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.nameWebsite  {
+    font-size: 24px;
+    color: #62D0DF;
+}
+
+.nameWebsite a {
+    color: #62D0DF;
+    transition: 1s;
+}
+
+.logo {
+    padding: 27px 322px 0px 179px;
+}
+
+.logo :hover { 
+    color: #dd5a2bd3;
+    transform: scale(5);
+    transition: 1s;
+}
+
+.navbar {
+    display: flex;
+}
+
+.heading {
+    padding: 187px 0px 0px 179px;
+}
+
+.header__heading {
+    font-family: "LarsseitBold";
+    font-size: 48px;
+    color: #22356F;
+    padding: 40px 0px 0px 179px;
+    line-height: 53px;
+}
+
+.header__text {
+    font-size: 24px;
+    color: #22356F;
+    line-height: 42px;
+    padding: 80px 0px 0px 179px;
+
+}
+
+.header__bottom {
+    display: flex;
+    padding: 63px 0px 0px 179px;
+}
+
+.header__background-right {
+    position: relative;
+}
+
+.bottom-text {
+    font-family: "LarsseitBold";
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.bottom-left {
+    width: 150px;
+    height: 32px;
+    background-color: #F9B640;;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 18px;
+    margin-right: 38px;
+}
+
+.bottom-right {
+    width: 150px;
+    height: 32px;
+    color: #FAB63E;
+    text-align: center;
+    padding-top: 18px;
+    margin-right: 38px;
+}
+
+.screensaver {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    z-index: 2;
+}
+
+.blue_oval {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    z-index: 1;
+} 
+
+.button {
+    position: relative;
+    z-index: 5;
+    margin: 27px 131px 0px 0px;
+    font-size: 14px;
+    width: 150px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #62D0DF;;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.button :hover {
+    color: #F9B640;
+    transition: 1s;
+}
+
+
+/* header end */
