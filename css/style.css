@@ -48,3 +48,42 @@ table {
 	border-spacing: 0;
 }
 
+/* fonts */
+
+@font-face { 
+    font-family: "LarsseitThin";
+    src: url("/fonts/LarsseitThin.eot");
+    src: url("/fonts/LarsseitThin.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/LarsseitThin.woff") format("woff"),
+    url("/fonts/LarsseitThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face { 
+    font-family: "LarsseitBold";
+    src: url("/fonts/LarsseitBold.eot");
+    src: url("/fonts/LarsseitBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/LarsseitBold.woff") format("woff"),
+    url("/fonts/LarsseitBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face { 
+    font-family: "LarsseitMedium";
+    src: url("/fonts/LarsseitMedium.eot");
+    src: url("/fonts/LarsseitMedium.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/LarsseitMedium.woff") format("woff"),
+    url("/fonts/LarsseitMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* fonts end*/
+
+
+.checking_the_font {
+    font-family: "LarsseitMedium";
+    font-size: 100px;;
+}
