@@ -4,79 +4,166 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
     font-family: "LarsseitMedium";
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* fonts */
 
-@font-face { 
+@font-face {
     font-family: "LarsseitThin";
     src: url("/fonts/LarsseitThin.eot");
     src: url("/fonts/LarsseitThin.eot?#iefix")format("embedded-opentype"),
-    url("/fonts/LarsseitThin.woff") format("woff"),
-    url("/fonts/LarsseitThin.ttf") format("truetype");
+        url("/fonts/LarsseitThin.woff") format("woff"),
+        url("/fonts/LarsseitThin.ttf") format("truetype");
     font-style: normal;
     font-weight: 100;
 }
 
-@font-face { 
+@font-face {
     font-family: "LarsseitBold";
     src: url("/fonts/LarsseitBold.eot");
     src: url("/fonts/LarsseitBold.eot?#iefix")format("embedded-opentype"),
-    url("/fonts/LarsseitBold.woff") format("woff"),
-    url("/fonts/LarsseitBold.ttf") format("truetype");
+        url("/fonts/LarsseitBold.woff") format("woff"),
+        url("/fonts/LarsseitBold.ttf") format("truetype");
     font-style: normal;
     font-weight: 700;
 }
 
-@font-face { 
+@font-face {
     font-family: "LarsseitMedium";
     src: url("/fonts/LarsseitMedium.eot");
     src: url("/fonts/LarsseitMedium.eot?#iefix")format("embedded-opentype"),
-    url("/fonts/LarsseitMedium.woff") format("woff"),
-    url("/fonts/LarsseitMedium.ttf") format("truetype");
+        url("/fonts/LarsseitMedium.woff") format("woff"),
+        url("/fonts/LarsseitMedium.ttf") format("truetype");
     font-style: normal;
     font-weight: 500;
 }
@@ -124,7 +211,7 @@ table {
     transition: 1s;
 }
 
-.nameWebsite  {
+.nameWebsite {
     font-size: 24px;
     color: #62D0DF;
 }
@@ -138,7 +225,7 @@ table {
     padding: 27px 322px 0px 179px;
 }
 
-.logo :hover { 
+.logo :hover {
     color: #dd5a2bd3;
     transform: scale(5);
     transition: 1s;
@@ -186,7 +273,8 @@ table {
 .bottom-left {
     width: 150px;
     height: 32px;
-    background-color: #F9B640;;
+    background-color: #F9B640;
+    ;
     color: #FFFFFF;
     text-align: center;
     padding-top: 18px;
@@ -214,7 +302,7 @@ table {
     top: 0px;
     right: -5px;
     z-index: 1;
-} 
+}
 
 .button {
     position: relative;
@@ -224,7 +312,8 @@ table {
     width: 150px;
     height: 32px;
     border-radius: 50px;
-    background-color: #62D0DF;;
+    background-color: #62D0DF;
+    ;
     text-align: center;
     padding-top: 18px;
 }
@@ -242,3 +331,177 @@ table {
 
 
 /* header end */
+
+/* info_card start */
+
+.info_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_card__filing {
+    background-color: #62D0DF;
+    flex-grow: 1;
+    font-family: "LarsseitMedium";
+    color: #FFFFFF;
+}
+
+.info_card__filing h2 {
+    font-size: 36px;
+    margin: 13% 0px 0px 18%;
+}
+
+.info_card__text {
+    font-family: "LarsseitThin";
+    font-size: 20px;
+    line-height: 30px;
+    margin: 8% 0px 0px 18%;
+}
+
+.info_card__text span {
+    font-family: "LarsseitMedium";
+    font-size: 24px;
+}
+
+
+
+/* info_card end */
+
+/* text_card start */
+
+.text_card {
+    display: flex;
+    color: #22356F;
+    height: 482px;
+    flex-wrap: wrap;
+}
+
+.text_card h3 {
+    font-size: 16px;
+    flex: 0 1 9%;
+    margin: 9% 0px 0px 106px;
+}
+
+.text_card p {
+    font-size: 24px;
+    flex: 0 1 40%;
+    margin: 9% 0px 0px 15%;
+}
+
+.text_card h5 {
+    font-size: 16px;
+    flex: 0 1 100%;
+    align-items: center;
+    color: #22356f80;
+    margin: 3% 43% 1%;
+}
+
+/* text_card end */
+
+/* box_cards start  */
+
+.cards {
+    font-family: "LarsseitMedium";
+    font-size: 32px;
+    line-height: 34px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.card {
+    flex-grow: 1;
+    width: 25%;
+    height: 360px;
+}
+
+.card li {
+    color: #E9B730;
+    margin: 30px 0px 0px 100px;
+    text-indent: -40px;
+}
+
+.card li span {
+    color: #FFFFFF;
+}
+
+.card-item_1 {
+    background-color: #FFE2DE;
+}
+
+.card-item_2 {
+    background-color: #C4E769;
+}
+
+.card-item_3 {
+    background-color: #62D0DF;
+}
+
+.card-item_4 {
+    background-color: #0052C1;
+}
+
+.card-line {
+    border-top: 1px solid #FFFFFF;
+    margin-top: 72px;
+    width: 255px;
+}
+
+
+.boxes {
+    font-family: "LarsseitMedium";
+    font-size: 32px;
+    line-height: 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box {
+    height: 480px;
+}
+
+.box li {
+    color: #E9B730;
+    margin: 30px 0px 0px 120px;
+    text-indent: -40px;
+}
+
+.box li span {
+    color: #FFFFFF;
+}
+
+.box-line {
+    border-top: 1px solid #FFFFFF;
+    margin-top: 96px;
+    width: 340px;
+}
+
+.box-item_1 {
+    background-color: #22356F;
+}
+
+.box-item_2 {
+    background-color: #0052C1;
+}
+
+.box-item_3 {
+    background-image: url(/images/joanna-kosinska-340748.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.box-item_4 {
+    background-color: #62D0DF;
+}
+
+.box-item_5 {
+    background-color: #DEE1FF;
+}
+
+.box-item_6 {
+    background-color: #8F00FF;
+}
+
+/* box_cards end  */
