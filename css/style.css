@@ -505,3 +505,107 @@ table {
 }
 
 /* box_cards end  */
+
+/* text_box start  */
+
+.text-boxes {
+    font-family: "LarsseitThin";
+    font-size: 16px;
+    line-height: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.text_box {
+    padding: 15% 15% 10% 21%;
+}
+
+.text_box span {
+    font-family: "LarsseitMedium";
+    font-size: 28px;
+}
+
+.text_box p {
+    margin-top: 28px;
+}
+
+/* text_box end  */
+
+/* statistics_card start  */
+
+.statistics_card {
+    display: flex;
+}
+
+.card-text {
+    padding: 103px 0px 42px 106px;
+}
+
+.card-text h5 {
+    font-family: "LarsseitThin";
+    font-size: 16px;
+    color: #22356F;
+    margin-bottom: 225px;
+}
+
+.text-center {
+    font-family: "LarsseitMedium";
+    font-size: 36px;
+    line-height: 53px;
+    color: #22356F;
+}
+
+.text-center span {
+    color: #62D0DF;
+} 
+
+.text-bottom {
+    font-family: "LarsseitMedium";
+    font-size: 16px;
+    color: #FAB63E;
+    margin-top: 152px;
+}
+
+/* statistics_card end */
+
+/* help_card start  */
+
+.help_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.help_card-text {
+    padding: 103px 0px 0px 180px;
+    background: #22356F;
+    flex-grow: 1;
+}
+
+.help_card-text h5 {
+    font-family: "LarsseitThin";
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 230px;
+}
+
+.help_card-text h3 {
+    font-family: "LarsseitBold";
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+}
+
+.text_help-center {
+    font-family: "LarsseitMedium";
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+    line-height: 53px;
+}
+
+.text_help-bottom {
+    color: #62D0DF;
+}
+
+/* help_card end */
