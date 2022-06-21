@@ -558,7 +558,7 @@ table {
 
 .text-center span {
     color: #62D0DF;
-} 
+}
 
 .text-bottom {
     font-family: "LarsseitMedium";
@@ -609,3 +609,54 @@ table {
 }
 
 /* help_card end */
+
+/* footer start  */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_card {
+    padding: 98px 90px 0px 0px;
+}
+
+.footer h3 {
+    font-family: "LarsseitMedium";
+    font-size: 14px;
+    color: #22356F;
+    margin-bottom: 40px;
+}
+
+.footer p {
+    font-family: "LarsseitThin";
+    font-size: 14px;
+    color: #22356f77;
+    line-height: 23px;
+}
+
+.footer_link span {
+    display: block;
+    margin-top: 40px;
+}
+
+.footer_link a {
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    color: #123499af;
+}
+
+.footer__end {
+    box-sizing: border-box;
+    font-family: "LarsseitMedium";
+    font-size: 14px;
+    height: 80px;
+    width: 100%;
+    background-color: #62D0DF;
+    color: #FFFFFF;
+    padding: 42px 0px 0px 179px;
+}
+
+
+/* footer end  */
